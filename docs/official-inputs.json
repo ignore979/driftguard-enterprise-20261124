@@ -1,0 +1,90 @@
+{
+  "format": "zhixun.input-manifest.v1",
+  "authenticity": "user_download; organizer_signature_not_supplied",
+  "profiles": {
+    "A": {
+      "archive": "cpu-a-guide-20261110-v1.zip",
+      "archive_sha256": "7a992b92d92c807869c3eccf25b3bf82dcdeba9174e161d6e8b61d82c3ec8851",
+      "download_host": "rsi-index.115.zone",
+      "label_status_declared": "draft",
+      "files": {
+        "train.jsonl": {
+          "sha256": "c724014feb2c968d144e167f4997d2ad2125df3825abf4306c9c87c8f08de6c0",
+          "bytes": 601440,
+          "source_member": "public/train.jsonl"
+        },
+        "validation.jsonl": {
+          "sha256": "6be1370388bf67d017f7426a51e149a65baf9bc1186f5f41f6731ce5006ffbee",
+          "bytes": 1696799,
+          "source_member": "public/validation.jsonl"
+        },
+        "checkpoint.npz": {
+          "sha256": "fd1e08b2aad08b2e9754f9b2dfdc029481c0da7ecdedca0abb0ec6fcc818c757",
+          "bytes": 132180,
+          "source_member": "checkpoint.npz"
+        },
+        "profile.json": {
+          "sha256": "a358949911cfcb38b5d483acad41843243fe264b26f0470e1c64c495da4ab202",
+          "bytes": 229,
+          "source_member": "baselines/configs/A.json"
+        }
+      }
+    },
+    "B": {
+      "archive": "cpu-b-rul-20261110-v1.zip",
+      "archive_sha256": "68db6a72c29bac11a4f86e97d9c1f524d35695464fd5f3f6d131f1431bc69d68",
+      "download_host": "rsi-index.115.zone",
+      "label_status_declared": "approved",
+      "files": {
+        "train.jsonl": {
+          "sha256": "71b2663fffd3d7ef6dca8a7b3feb31c3feb96c57f385335d03041a5fa431054a",
+          "bytes": 9524699,
+          "source_member": "public/train.jsonl"
+        },
+        "validation.jsonl": {
+          "sha256": "23673a66bc22a166bf2f47b18f9c9d594f7e66a9aad88ddbccbcaea2310d9eb3",
+          "bytes": 2277162,
+          "source_member": "public/validation.jsonl"
+        },
+        "checkpoint.npz": {
+          "sha256": "c7d819fcee9d25459c583b5ffdb35593d4a47b524ed152d0226bf81a283314b4",
+          "bytes": 36600,
+          "source_member": "checkpoint.npz"
+        },
+        "profile.json": {
+          "sha256": "ecbee0f2dd0a6ec9b262f1fd830f8031b79b202cebfd56c12e47f10b19c87b06",
+          "bytes": 183,
+          "source_member": "baselines/configs/B.json"
+        }
+      }
+    },
+    "C": {
+      "archive": "cpu-c-guide-20261110-v1.zip",
+      "archive_sha256": "6cb8784e2cab7ee93453e756abf54c168721c667ca0c2c1327f5faae96e4211f",
+      "download_host": "rsi-index.115.zone",
+      "label_status_declared": "draft",
+      "files": {
+        "train.jsonl": {
+          "sha256": "fcfaeaf1e50a0cc01766dfba5fd34c7369f1fe14bf583111837e847865fac281",
+          "bytes": 38081620,
+          "source_member": "public/train.jsonl"
+        },
+        "validation.jsonl": {
+          "sha256": "0cc747f9998c5d7ee1e4eac6aec0db9f5ed4d2de149a1b1cbe689cce6b6aaca7",
+          "bytes": 7771735,
+          "source_member": "public/validation.jsonl"
+        },
+        "checkpoint.npz": {
+          "sha256": "98ec6e30e38aee56ca15b7d624a8f412226d46fe97b170667a567601c700bc4e",
+          "bytes": 28848,
+          "source_member": "checkpoint.npz"
+        },
+        "profile.json": {
+          "sha256": "bbdfc7cac9cea81fe578db9ab1e1b398140723bb1c70353d9a9de4544187f4d3",
+          "bytes": 155,
+          "source_member": "baselines/configs/C.json"
+        }
+      }
+    }
+  }
+}

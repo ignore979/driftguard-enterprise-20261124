@@ -1,0 +1,255 @@
+{
+  "version": "enterprise-20261124-locked",
+  "protocol": "contest.harness.workspace.v2",
+  "sdk": "1.0.2",
+  "model_access": "host_gateway_rpc",
+  "base_image": {
+    "source": "docker.io/library/python:3.12-slim-bookworm",
+    "source_platform_digest": "sha256:0f086103b026048cc50cb5da25ec435c023c5241a83fc44daea593377abc61c4",
+    "manifest_digest": "sha256:aa58271a36e264df46265fe6749bfc4c1d6cbc30ae58e2f4631f7cab8eeca5c0"
+  },
+  "image": {
+    "sha256": "54c4bf131f8906074d9fe6a2bfae619342aadcde0d7f3c985d8df650a55e8d93",
+    "bytes": 74311680,
+    "os": "linux",
+    "architecture": "amd64",
+    "entrypoint": [
+      "python3",
+      "/app/harness.py"
+    ],
+    "command": [
+      "describe"
+    ]
+  },
+  "image_name": "driftguard-enterprise-linux-amd64-20261124.tar",
+  "image_tag": "driftguard-enterprise:20261124-locked",
+  "image_sources": {
+    "submission/enterprise_contest_submission.py": {
+      "sha256": "f49f2e4097fe2ec83a19908ef0aeea355e2e700a34307a441fc654593ab6e228",
+      "context_path": "contest_submission.py"
+    },
+    "src/zhixun/__init__.py": {
+      "sha256": "f9cdeb68354bb72e0f6716800e404cd56e7652516f557ce7a9611561835fab75",
+      "context_path": "src/zhixun/__init__.py"
+    },
+    "src/zhixun/data.py": {
+      "sha256": "3353328621427881debda5f2d8f43042b66089e525e162e8a91f020f87a2cb92",
+      "context_path": "src/zhixun/data.py"
+    },
+    "src/zhixun/metrics.py": {
+      "sha256": "d8a34941189da17ea36c9e9aa064836dc6d96d2ad539a42e6d23737a67f66cdb",
+      "context_path": "src/zhixun/metrics.py"
+    },
+    "src/zhixun/model_extension.py": {
+      "sha256": "4ecc9bee1bc01ace15e14c5e3cfe8d525a683bfe248fa2a118b68f0333606a12",
+      "context_path": "src/zhixun/model_extension.py"
+    },
+    "src/zhixun/tracking.py": {
+      "sha256": "dcacdd010972b95cb4e87bd421a30b561f853e1842e32b23ae4fc050a44c1af4",
+      "context_path": "src/zhixun/tracking.py"
+    },
+    "src/zhixun/contest_runtime.py": {
+      "sha256": "93926a9396e56e33743bb21fc640bbee3900d526e97ec8fc4e607019d7e7f613",
+      "context_path": "src/zhixun/contest_runtime.py"
+    },
+    "src/zhixun/vendor/__init__.py": {
+      "sha256": "920291bddac93abcca5c945cd42dce49aab024f92b3a1f5792c18afb0bf425e3",
+      "context_path": "src/zhixun/vendor/__init__.py"
+    },
+    "src/zhixun/vendor/data.py": {
+      "sha256": "6099e312829ac3aaf48209ec1f618532c4a8552fedf73f09cf31c8876261db65",
+      "context_path": "src/zhixun/vendor/data.py"
+    },
+    "src/zhixun/vendor/model.py": {
+      "sha256": "325026d80747eb36f39c8df1be02b640ae21b3cd082827c66aacbdf273dd61c5",
+      "context_path": "src/zhixun/vendor/model.py"
+    },
+    "src/zhixun/contest_c_runtime.py": {
+      "sha256": "5590abbbf1cbac2cd985386c3203d780d921cec4bbe8421c51f2eb299aa82d85",
+      "context_path": "src/zhixun/contest_c_runtime.py"
+    },
+    "src/zhixun/c_model.py": {
+      "sha256": "978b9c6681c9c5bb708f8bbdea7d3431d61d3d311cf95162c1c638a7a615c97e",
+      "context_path": "src/zhixun/c_model.py"
+    },
+    "src/zhixun/c_round.py": {
+      "sha256": "4e427a0edf2bd85487e496f328d885ec0f74443129c280477f0d9ff935059182",
+      "context_path": "src/zhixun/c_round.py"
+    },
+    "src/zhixun/c_round_model.py": {
+      "sha256": "4f58efa1fd1eebde95af4314b3e2b611a0787010fa9167351551d7bf5c3a04ac",
+      "context_path": "src/zhixun/c_round_model.py"
+    },
+    "src/zhixun/c_trio_protocol.py": {
+      "sha256": "b285b66b6ba02d52206429c16475ab240a88a26597856694440ce19e1997ea30",
+      "context_path": "src/zhixun/c_trio_protocol.py"
+    },
+    "submission/harness.py": {
+      "sha256": "6ef17e7dfd73558daf8464f7be8b1e963ccf103c76638c623911ec5c334c93f5",
+      "context_path": "harness.py"
+    }
+  },
+  "image_dependencies": {
+    "annotated-types": {
+      "version": "0.8.0",
+      "sha256": "f072f4d804ea359e4eaf198b1af7a8b0943881a87f31bb764f8bf219bb9419e0"
+    },
+    "certifi": {
+      "version": "2026.10.23",
+      "sha256": "e9b54de76e530bb6cf0ccd036787103acb58fd42ba930ea8bf948ddbaa2f61d1"
+    },
+    "charset-normalizer": {
+      "version": "3.5.2",
+      "sha256": "3d31298449090ab8d47b7b1b2a555ff73cac7ed438a08b7ac160980c7ebed649"
+    },
+    "click": {
+      "version": "8.5.1",
+      "sha256": "8bb5376d2006950386f8c6427613334a2acadc5f559cb80e638d00b4df957e37"
+    },
+    "contest-harness": {
+      "version": "1.0.2",
+      "sha256": "a85bc2a12958139222ad793869f3f7e4e04951e4e98bfb26bdaf1b0c74c042d5"
+    },
+    "idna": {
+      "version": "3.20",
+      "sha256": "ab7ae7122974553370f0bdb919e1a960b2cd1bc1ef0276416d896db81c14582c"
+    },
+    "jinja2": {
+      "version": "3.1.6",
+      "sha256": "85ece4451f492d0c13c5dd7c13a64681a86afae63a5f347908daf103ce6d2f67"
+    },
+    "markdown-it-py": {
+      "version": "4.3.0",
+      "sha256": "7aa1511a46c39138de78d9eba92ce47e63124d8003fc98b3a351909e04239efa"
+    },
+    "markupsafe": {
+      "version": "3.0.4",
+      "sha256": "8e124f974786f831d6043728e38296969d3579db8896fe004682f5758e613581"
+    },
+    "mdurl": {
+      "version": "0.1.2",
+      "sha256": "84008a41e51615a49fc9966191ff91509e3c40b939176e643fd50a5c2196b8f8"
+    },
+    "numpy": {
+      "version": "1.26.4",
+      "sha256": "675d61ffbfa78604709862923189bad94014bef562cc35cf61d3a07bba02a7ed"
+    },
+    "nvidia-ml-py": {
+      "version": "13.615.71",
+      "sha256": "959bf4adf6fe1308e4bd739e722236b0d1ec8392e2cefad33ff70c311380b9b6"
+    },
+    "orjson": {
+      "version": "3.13.0",
+      "sha256": "bceadfd314bd238f584fc229a4bbaf0e573597e7a026dec5429fbf29fd66c641"
+    },
+    "platformdirs": {
+      "version": "4.14.5",
+      "sha256": "8e778c6fa421516f4d3369449f8df3b0e1b72c0e0005fe88e3ec772d0a14e750"
+    },
+    "prettytable": {
+      "version": "3.18.0",
+      "sha256": "b3346e0e6f79180833aebaac088ae926340586cf6d7d991b9eb125b65f72313a"
+    },
+    "protobuf": {
+      "version": "6.33.6",
+      "sha256": "e9db7e292e0ab79dd108d7f1a94fe31601ce1ee3f7b79e0692043423020b0593"
+    },
+    "psutil": {
+      "version": "7.2.2",
+      "sha256": "076a2d2f923fd4821644f5ba89f059523da90dc9014e85f8e45a5774ca5bc6f9"
+    },
+    "pwinput": {
+      "version": "1.0.3",
+      "sha256": "d1a0a8815dbcf157e0455ebec727ca742beef7c59aa4e79ad53d92741145c9c0"
+    },
+    "pydantic": {
+      "version": "2.14.3",
+      "sha256": "3f7b347782ab7e4cf4c798496ae3a82787d9f21ec12676a9c564355eeef8daa8"
+    },
+    "pydantic-core": {
+      "version": "2.50.4",
+      "sha256": "c81d98e27d9d9261909dcccab1ba5d6ea1c98b0bb9470e368604614fd1d36ddd"
+    },
+    "pydantic-settings": {
+      "version": "2.16.3",
+      "sha256": "d1db16a2d34006323a1b42c0640898da58adfbad7ec30baaa9e2b18aafc08999"
+    },
+    "pyecharts": {
+      "version": "2.1.0",
+      "sha256": "5cba0aa06af3d9390a1fed18aa4e76acd7bdfb323cdf131874f46eaf7e78c6c7"
+    },
+    "pygments": {
+      "version": "2.21.0",
+      "sha256": "2363c69b61c4a97c838da3b130dcd6468f4848992b21a82f2a63ec34377137d9"
+    },
+    "pyroaring": {
+      "version": "1.0.3",
+      "sha256": "d31f4c1c906f1af14ce61a3959d04a14a64c594f8a768399146a45bbd341f21f"
+    },
+    "python-dotenv": {
+      "version": "1.2.4",
+      "sha256": "42269a8a5b3fd54ffa6f3d84b18abed50064717576b4ecf03dc4a55d8aa04fdc"
+    },
+    "pyyaml": {
+      "version": "6.0.3",
+      "sha256": "ba1cc08a7ccde2d2ec775841541641e4548226580ab850948cbfda66a1befcdc"
+    },
+    "requests": {
+      "version": "2.34.2",
+      "sha256": "2a0d60c172f83ac6ab31e4554906c0f3b3588d37b5cb939b1c061f4907e278e0"
+    },
+    "rich": {
+      "version": "15.0.0",
+      "sha256": "33bd4ef74232fb73fe9279a257718407f169c09b78a87ad3d296f548e27de0bb"
+    },
+    "setuptools": {
+      "version": "84.2.1",
+      "sha256": "ca140b45d5325a9478f880e351484f62fef15f336462e449ca0c03c873d589c2"
+    },
+    "simplejson": {
+      "version": "4.3.0",
+      "sha256": "ce5726e85a8462580b3c3f5098e9bcaa2d10dfd28233451aad5638a9d16b6d1c"
+    },
+    "swanlab": {
+      "version": "0.10.5",
+      "sha256": "e91a20cac5a5d186e583886a3d349f5cd3e57ffe347ac8ecb3c992ef7e1226df"
+    },
+    "typing-extensions": {
+      "version": "4.16.0",
+      "sha256": "481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8"
+    },
+    "typing-inspection": {
+      "version": "0.4.5",
+      "sha256": "bc210535442b39e1bf2805e0c7a17dfd6a4ace760c84c7f7d16245d23a6b1c39"
+    },
+    "urllib3": {
+      "version": "2.8.0",
+      "sha256": "0cf3cae568d36aa9576b28dfb35f11328f1cb974ca7647d9475ebb86c75ac6e3"
+    },
+    "watchdog": {
+      "version": "7.1.0",
+      "sha256": "77f06d709fe5d766ec51ec07b79773f5e29a0b3c4c3d195cfc7aa1e909fa566c"
+    },
+    "wcwidth": {
+      "version": "0.9.4",
+      "sha256": "b185c8b927b23af2721be1783499d1cfa5c028b098b0858951b4ae224477f1c2"
+    },
+    "wrapt": {
+      "version": "2.5.2",
+      "sha256": "092472b7b1494deef40dac5e9f6295013a9d51b112b5fbc4350f64dc2574e46a"
+    }
+  },
+  "linux_container_describe_verified": false,
+  "training_modes": {
+    "A": "frozen school runtime",
+    "B": "frozen school runtime",
+    "C": "validated condition residual continuation"
+  },
+  "c_local_sdk_rehearsal_selected_rounds": [
+    1,
+    2,
+    5,
+    6,
+    10
+  ]
+}

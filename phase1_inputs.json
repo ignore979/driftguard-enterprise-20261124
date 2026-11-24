@@ -1,0 +1,12 @@
+{
+  "source_commit": "271263719f06c6b684a30c4d5421035b06e93369",
+  "historical_artifacts": {
+    "b-final/training.json": "d9c79887029da46cd6cbe770fa7a9fc9fb1b5c077ea0df95af60e6800585ae75",
+    "b-expanded96/checkpoint.npz": "0d8a6094c654f91a8b35d1e2592c236cb8b5e325cfbc6973d412d05cd0189187",
+    "baselines/configs/B96.json": "87c38c50b40fdcf8329a86eb8c63971cd48e1a6db332dc7c2707a4f5657f5797",
+    "baselines/model.py": "dca8c4146c36d280e834527852084954b56d4f333963d51c2e5cbc810dda7124",
+    "baselines/data.py": "6099e312829ac3aaf48209ec1f618532c4a8552fedf73f09cf31c8876261db65",
+    "baselines/train.py": "6257f0b13f1f0614f06f602ae59fa3da4d6e242497cf7e98ae7dece878d38a6b",
+    "baselines/predict.py": "80e6787cd862dfefd85cd6bfcd73b5577dd90e202dd3d5bb9f18a52761807452"
+  }
+}
